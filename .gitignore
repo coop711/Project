@@ -1,0 +1,10 @@
+.DS_Store
+.Rproj.user
+*.Rhistory
+*.RData
+*.html
+*.Ruserdata
+R/*.RData
+R/*.html
+R/*.Ruserdata
+R/*.Rhistory
