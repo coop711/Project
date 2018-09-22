@@ -40,19 +40,19 @@ simbius$group <- factor(group,
 #### 학년 
 
 ```{r, year, echo = FALSE}
-year.f <- factor(simbius$year, 
+year_f <- factor(simbius$year, 
                  labels = c("1학년", "2학년"))
 kable(table("Group" = simbius$group, 
-            "학년" = year.f))
+            "학년" = year_f))
 ```
 
 #### 성별
 
 ```{r, gender, echo = FALSE}
-gender.f <- factor(simbius$gender, 
+gender_f <- factor(simbius$gender, 
                    labels = c("남", "여"))
 kable(table("Group" = simbius$group, 
-            "성별" = gender.f))
+            "성별" = gender_f))
 ```
 
 #### 많이 나오는 성씨
